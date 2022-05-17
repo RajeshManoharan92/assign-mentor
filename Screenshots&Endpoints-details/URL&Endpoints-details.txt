@@ -1,0 +1,28 @@
+heroku url -	https://node-js-mentor-student.herokuapp.com/
+
+Git-Hub url -	https://github.com/RajeshManoharan92/assign-mentor
+
+
+local host - 3000;
+
+
+endpoints:
+
+
+	Method using		   		   API							   	 Usage
+
+  	    GET    		   	/mentor/getmentordetails 			 ->		to get posted mentor details
+
+	    GET 			/mentor/getstudentdetails  			 ->     	to get posted studentdetails
+
+            GET 		       	/mentor/getstudentdetailsofmentornotassigned     ->		to get student details who not assigned to any mentor
+
+	    GET 			/mentor/getstudentsofparticularmentor    	 ->		to get students of particular mentor
+
+	    GET 			/mentor/getoveralldetails     			 ->		to get overall details of both mentor and students
+
+	    PUT				/mentor/AssignorChangeMentor/:id   		 ->		to assign or change mentor for a patricular student
+
+	    POST			/mentor/Postmentordetails  			 ->    	        to post mentor details
+
+	    POST			/mentor/Poststudentdetails    			 ->		to post student details
